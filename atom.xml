@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://fdc233.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://fdc233.github.io/"/>
+  <updated>2022-07-20T14:55:53.818Z</updated>
+  <id>http://fdc233.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FDCの小博客</title>
+    <link href="http://fdc233.github.io/2022/07/20/hello-world/"/>
+    <id>http://fdc233.github.io/2022/07/20/hello-world/</id>
+    <published>2022-07-20T10:28:08.730Z</published>
+    <updated>2022-07-20T14:55:53.818Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
