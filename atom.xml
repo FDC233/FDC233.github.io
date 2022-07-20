@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>「银寰玉碎间」</title>
   
-  
+  <subtitle>欢迎来到「银寰玉碎间」</subtitle>
   <link href="http://fdc233.github.io/atom.xml" rel="self"/>
   
   <link href="http://fdc233.github.io/"/>
-  <updated>2022-07-20T14:55:53.818Z</updated>
+  <updated>2022-07-20T17:37:53.194Z</updated>
   <id>http://fdc233.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>FDC</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>FDCの小博客</title>
-    <link href="http://fdc233.github.io/2022/07/20/hello-world/"/>
-    <id>http://fdc233.github.io/2022/07/20/hello-world/</id>
-    <published>2022-07-20T10:28:08.730Z</published>
-    <updated>2022-07-20T14:55:53.818Z</updated>
+    <title>事FDC的第一篇文！</title>
+    <link href="http://fdc233.github.io/2022/07/21/article1/"/>
+    <id>http://fdc233.github.io/2022/07/21/article1/</id>
+    <published>2022-07-20T17:32:00.000Z</published>
+    <updated>2022-07-20T17:37:53.194Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;是第一篇文！&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
+    <category term="杂文" scheme="http://fdc233.github.io/categories/%E6%9D%82%E6%96%87/"/>
+    
+    
+    <category term="测试" scheme="http://fdc233.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
