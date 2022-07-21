@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>测试</title>
+      <link href="/2022/07/21/article2/"/>
+      <url>/2022/07/21/article2/</url>
+      
+        <content type="html"><![CDATA[<p>是第2篇文！</p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>其实也没什么说的</p><p>才搭起来没多久</p><p>这篇文章算个测试罢</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂文 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>事FDC的第一篇文！</title>
       <link href="/2022/07/21/article1/"/>
       <url>/2022/07/21/article1/</url>
@@ -20,7 +45,7 @@
       
         <tags>
             
-            <tag> 测试 </tag>
+            <tag> test </tag>
             
         </tags>
       
