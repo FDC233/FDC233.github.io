@@ -1,13 +1,3 @@
-@-webkit-keyframes into {
-    0% {
-        opacity: 0;
-        -webkit-transform: scale(1.1);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: scale(1);
-    }
-}
 @keyframes into {
     0% {
         opacity: 0;
@@ -18,28 +8,12 @@
         transform: scale(1);
     }
 }
-@-webkit-keyframes loading {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 @keyframes loading {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
-    }
-}
-@-webkit-keyframes loop1 {
-    0% {
-        -webkit-transform: rotate(30deg);
-    }
-    100% {
-        -webkit-transform: rotate(390deg);
     }
 }
 @keyframes loop1 {
@@ -50,14 +24,6 @@
         transform: rotate(390deg);
     }
 }
-@-webkit-keyframes loop2 {
-    0% {
-        -webkit-transform: rotate(60deg);
-    }
-    100% {
-        -webkit-transform: rotate(420deg);
-    }
-}
 @keyframes loop2 {
     0% {
         transform: rotate(60deg);
@@ -66,28 +32,12 @@
         transform: rotate(420deg);
     }
 }
-@-webkit-keyframes loop3 {
-    0% {
-        -webkit-transform: rotate(90deg);
-    }
-    100% {
-        -webkit-transform: rotate(450deg);
-    }
-}
 @keyframes loop3 {
     0% {
         transform: rotate(90deg);
     }
     100% {
         transform: rotate(450deg);
-    }
-}
-@-webkit-keyframes loop4 {
-    0% {
-        -webkit-transform: rotate(120deg);
-    }
-    100% {
-        -webkit-transform: rotate(480deg);
     }
 }
 @keyframes loop4 {
@@ -214,11 +164,9 @@ pre .language {
     color: #5c6b72;
 }
 .into-enter-active {
-    -webkit-animation: into 0.6s;
     animation: into 0.6s;
 }
 .into-leave-active {
-    -webkit-animation: into 0.6s;
     animation: into 0.6s;
 }
 .slide-enter-active,
@@ -256,7 +204,6 @@ pre .language {
     background: #fff;
     opacity: 0.3;
     transform: rotate(30deg);
-    -webkit-animation: loop1 10s linear infinite;
     animation: loop1 10s linear infinite;
 }
 #home-head .home-info .loop:nth-child(2) {
@@ -264,7 +211,6 @@ pre .language {
     background: #fff;
     opacity: 0.45;
     transform: rotate(60deg);
-    -webkit-animation: loop2 15s linear infinite;
     animation: loop2 15s linear infinite;
 }
 #home-head .home-info .loop:nth-child(3) {
@@ -272,7 +218,6 @@ pre .language {
     opacity: 0.3;
     background: #fff;
     transform: rotate(90deg);
-    -webkit-animation: loop3 10s linear infinite;
     animation: loop3 10s linear infinite;
 }
 #home-head .home-info .loop:nth-child(4) {
@@ -280,7 +225,6 @@ pre .language {
     opacity: 0.45;
     background: #fff;
     transform: rotate(120deg);
-    -webkit-animation: loop4 15s linear infinite;
     animation: loop4 15s linear infinite;
 }
 #home-background {
@@ -294,6 +238,7 @@ pre .language {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    -webkit-filter: brightness(75%);
 }
 #home-posts-wrap {
     position: relative;
@@ -437,7 +382,6 @@ pre .language {
     width: 300px;
 }
 #card-div {
-    position: -webkit-sticky;
     position: sticky;
     top: 80px;
 }
@@ -461,6 +405,20 @@ pre .language {
     border-radius: 50%;
     width: 100%;
     height: 100%;
+}
+#home-card .card-style .avatar img:hover {
+    animation: Anim_Avatar_Rotting 0.1s linear infinite;
+}
+@keyframes Anim_Avatar_Rotting
+{
+    0%
+    {
+        rotate: 0deg;
+    }
+    100%
+    {
+        rotate: 360deg;
+    }
 }
 #home-card .card-style .name {
     margin: 10px auto;
